@@ -1,0 +1,4 @@
+<% if current_user.present? %>
+  <h4>Welcome <%= current_user %></h4>
+  <p><%= link_to "Secret Page", home_path %></p>
+<% end %>
