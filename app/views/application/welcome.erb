@@ -1,0 +1,5 @@
+<% if current_user %>
+    <p>Hi, <%= @user_name %>. Here are some  <%=link_to 'secrets', '/secrets'%></p>
+<% else %>
+    <p>Please <%= link_to 'log in', '/login' %></p>
+<% end %>
