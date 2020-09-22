@@ -1,0 +1,5 @@
+<% if session[:name] %>
+  <h1>Hi, <%= session[:name] %>.</h1>
+<% else %>
+  <%= link_to "Login", '/login' %>
+<% end %>
