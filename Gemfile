@@ -1,5 +1,6 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
+source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails'
@@ -40,7 +41,7 @@ group :development, :test do
   gem 'byebug'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  gem 'rspec-rails', '~> 3.7'
   gem 'capybara'
+  gem 'rspec-rails', '~> 3.7'
+  gem 'spring'
 end
